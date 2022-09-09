@@ -1,0 +1,88 @@
+.principal{
+    max-height: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Produtos{
+    height: 100vh;
+}
+
+.cartaos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas: 
+    "item-A item-B item-C item-D item-E";
+    height: 80vh;
+    max-width: 100%;
+    
+}
+
+.item-A{
+    grid-area: item-A;
+}
+.item-B{
+    grid-area: item-B;
+}
+.item-C{
+    grid-area: item-C;
+}
+.item-D{
+    grid-area: item-D;
+}
+.item-E{
+    grid-area: item-E;
+}
+
+.item-A, .item-B, .item-C, .item-D, .item-E{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.item-A figure, .item-B figure, .item-C figure, .item-D figure, .item-E figure{
+    height: 50%;
+    margin: 10px;
+}
+
+.item-A p, .item-B p, .item-C p, .item-D p, .item-E p{
+    height: 50%;
+    margin: 10px;
+}
+
+.cartao{
+    display: flex;
+    width: 100%;
+}
+
+.cartao p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.cartao img{
+    width: 80%;
+    margin: auto;
+}
+
+.h1{
+    margin: 0;
+}
+
+
+.cadastro{
+    margin: 10px 0;
+    height: 20vh;
+    background-color: #E64360;
+    border-radius: 10px;
+}
+
+.imagem img{
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: rgb(219, 223, 227);
+}
+
+.cabecalhoNav{
+    height: 5vh;
+}
+
+.cabecalhoNavLista{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalhoNavLista .lista{
+    list-style-type: none;
+}
+
+
+@media (max-width: 612px) {
+    .cabecalhoNavLista{
+        display: none;
+    }
+   
+}

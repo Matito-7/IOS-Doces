@@ -1,0 +1,19 @@
+.rodape{
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.RodapePagamentoSeparado{
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 10px; 
+    margin: 20px;
+    grid-template-areas: 
+        "Separador1 Separador2 Separador3 Separador4 Separador5"; 
+    height: 50vh;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: justify;
+}
